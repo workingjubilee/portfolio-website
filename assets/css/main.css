@@ -1555,6 +1555,12 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.shrink {
+			display: block;
+			max-width: 215px;
+			object-fit: contain;
+		}
+
 		.image.fit {
 			display: block;
 			width: 100%;
